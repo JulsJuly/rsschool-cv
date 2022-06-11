@@ -32,9 +32,9 @@ html{
       box-sizing: inherit;
   }
 .wrapper{
-  padding-left: 20px;
-  padding-right: 20px;
-  background-color: black;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: FFFFFF;
 }
 .menu{
   display: flex;
@@ -53,3 +53,157 @@ html{
   color: #90CDF4;
   margin-left: 80px;
 }
+
+/* Intro content starts*/
+
+.main-content{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.intro{
+  display: flex;
+}
+.intro-wrapper{
+  max-width: 320px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.name{
+  font-family: "montserrat";
+  font-weight: 400;
+  font-size: 36px;
+}
+.rectangle{
+  width: 50px;
+  height: 10px;
+  background-color: #90CDF4;
+  border-radius: 6px;
+}
+.about-me{
+  font-family: "Montserrat";
+  font-size: 24px;
+  text-align: left;
+  line-height: 30px;
+  color: #90CDF4;
+}
+.contacts{
+  display: flex;
+  flex-direction: column;
+}
+.contacts-item{
+  width: 280px;
+  height: 40px;
+  background-color: #90CDF4;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.contacts-item-color{
+  width: 280px;
+  height: 40px;
+  background-color: #FBD38D;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.item{
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: bold;
+  color: #2B6CB0;
+  text-align: center;
+}
+
+/* Intro content ends*/
+
+/* Skills content starts*/
+
+.skills{
+  display: flex;
+  flex-direction: column;
+  height: 260px;
+  justify-content: space-between;
+}
+.skills-title{
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+}
+.skills-item{
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+.ellipse{
+  width: 20px;
+  height: 20px;
+  background-color: #90CDF4;
+  border: 3px solid #0000;
+  border-radius: 50%;
+}
+.skills-block{
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+.examples{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.examples-title{
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+}
+.task{
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+.code-example{
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+
+/* skills content ends*/
+
+/* Education content starts*/
+
+.education{
+  display: flex;
+}
+.education-block{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.education-title{
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+}
+.education-subtitle{
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+.education-item{
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+
+/* Education content ends*/

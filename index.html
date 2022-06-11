@@ -19,5 +19,93 @@
                 </ul>
         </header>
     </section>
+    <section class="wrapper">
+        <main class="main-content">
+            <div class="intro">
+                <div class="intro-wrapper">
+                <h1 class="name">Yulia BASHMACHNIKOVA</h1>
+                <div class="rectangle"></div>
+                <p class="about-me">I'm 23 years old and and my main aim is to become a front-end developer. I'm a great team worker as I'm sociable, responsible and attentive. I appreciate new opportunities and I'm eager to get new skills and experience in development. </p>
+                </div>
+            </div>
+            <div class="contacts">
+                <div class="contacts-item">
+                    <p class="item">Location: Russia, Tyumen</p>
+                </div>
+                <div class="contacts-item-color">
+                    <p class="item">E-mail: juliapb12@yandex.ru</p>
+                </div>
+                <div class="contacts-item">
+                    <p class="item">Telegram: @July-D</p>
+                </div>
+                <div class="contacts-item-color">
+                    <p class="item">GitHub: JulsJuly</p>
+                </div>
+            </div>
+        </main>
+    </section>
+    <section class="wrapper">
+        <div class="skills-block">
+        <div class="skills">
+            <div class="ellipse"></div>
+            <h2 class="skills-title">Skills</h2>
+            <h3 class="skills-item">HTML</h3>
+            <h3 class="skills-item">CSS</h3>
+            <h3 class="skills-item">JavaScript</h3>
+            <h3 class="skills-item">Python</h3>
+            <h3 class="skills-item">Git, GitHub</h3>
+            <h3 class="skills-item">VS Code</h3>
+        </div>
+        <div class="examples">
+            <h2 class="examples-title">Code Example</h2>
+            <p class="task">Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string.</p>
+            <code class="code-example">
+                function fakeBin(x){<br>
+                let result = '';<br>
+                  for(let i = 0; i < x.length; i++){<br>
+                    x[i] < 5 ? result += 0 : result += 1;<br>
+                  }<br>
+                  return result;<br>
+                }<br>
+            </code>
+            <p class="task">You're writing code to control your town's traffic lights. You need a function to handle each change from green, to yellow, to red, and then to green again.</p>
+            <p class="task">Complete the function that takes a string as an argument representing the current state of the light and returns a string representing the state the light should change to.</p>
+            <p class="task">For example, update_light('green') should return 'yellow'.</p>
+            <code class="code-example">
+                function updateLight(current) {<br>
+                    const list = ['green', 'yellow', 'red', 'green'];<br>
+                    for (el in list) {<br>
+                      if (list[el] === current)<br>
+                        return list[1 + parseInt(el)]<br>
+                    }<br>
+                  }<br>
+            </code>
+        </div>
+    </div>
+    </section>
+    <section class="wrapper">
+        <div class="education">
+        <div class="education-block">
+            <h2 class="education-title">Education</h2>
+            <h3 class="education-subtitle">University:</h3>
+            <p class="education-item">Yugra State University , Bachelor 2016-2018, Linguistics, not graduated</p>
+        </div>
+        <div class="education-block">
+            <h3 class="education-subtitle">Courses:</h3>
+            <a class="course-link" href="https://learn.javascript.ru/">JavaScript</a>
+            <a class="course-link" href="https://ru.code-basics.com/languages/html">HTML for beginners</a>
+            <a class="course-link" href="https://ru.code-basics.com/languages/javascript">JavaScript for beginners</a>
+            <a class="course-link" href="https://stepik.org/course/63085/syllabus">Python</a>
+            <p class="education-item">Coursera, Python for beginners HSE</p>
+        </div>
+        <div class="education-block">
+            <h2 class="education-title">Languages:</h2>
+            <h3 class="education-subtitle">English:</h3>
+            <p education-item>B2, I'm eager to achieve C1</p>
+            <h3 class="education-subtitle">Russian:</h3>
+            <p education-item>Native</p>
+        </div>
+        </div>
+    </section>
 </body>
 </html>
