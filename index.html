@@ -4,31 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Yulia B. - Junior Front-End Developer</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
 </head>
 <body class="body">
-    <section class="wrapper">
-        <header class="menu">
+    <header class="wrapper">
+        <div class="menu">
                 <ul class="navigation">
-                    <li class="navigation-item">Contacts</li>
-                    <li class="navigation-item">About me</li>
-                    <li class="navigation-item">Skills</li>
-                    <li class="navigation-item">Code Example</li>
+                    <li class="navigation-item"><a class="navigation-item" href="#cont">Contacts</a></li>
+                    <li class="navigation-item"><a class="navigation-item" href="#am">About me</a></li>
+                    <li class="navigation-item"><a class="navigation-item" href="#sk">Skills</a></li>
+                    <li class="navigation-item"><a class="navigation-item" href="#ce">Code Example</a></li>
+                    <li class="navigation-item"><a class="navigation-item" href="#ed">Education</a></li>
                 </ul>
-        </header>
-    </section>
-    <section class="wrapper">
-        <main class="main-content">
-            <div class="intro">
+        </div>
+    </header>
+    <main class="wrapper">
+        <section class="main-content">
                 <div class="intro-wrapper">
                 <h1 class="name">Yulia BASHMACHNIKOVA</h1>
                 <div class="rectangle"></div>
-                <p class="about-me">I'm 23 years old and and my main aim is to become a front-end developer. I'm a great team worker as I'm sociable, responsible and attentive. I appreciate new opportunities and I'm eager to get new skills and experience in development. </p>
+                <p id="am" class="about-me">I'm 23 years old and and my main aim is to become a front-end developer. I'm a great team worker as I'm sociable, responsible and attentive. I appreciate new opportunities and I'm eager to get new skills and experience in development. </p>
                 </div>
-            </div>
             <div class="contacts">
+                <img class="image" src="Wctx4B6w6.jpg" alt="profilePhoto">
+                <div class="contacts-items-wrap">
                 <div class="contacts-item">
                     <p class="item">Location: Russia, Tyumen</p>
                 </div>
@@ -36,41 +37,46 @@
                     <p class="item">E-mail: juliapb12@yandex.ru</p>
                 </div>
                 <div class="contacts-item">
-                    <p class="item">Telegram: @July-D</p>
+                    <p id="cont" class="item">Telegram: @July-D</p>
                 </div>
                 <div class="contacts-item-color">
-                    <p class="item">GitHub: JulsJuly</p>
+                    <a class="item-link" href="https://github.com/JulsJuly"><p class="item">GitHub</p></a>
                 </div>
+                </div>
+                <div class="intro-ellipse"></div>
+                <div class="rectangle1"></div>
+                <div class="rectangle2"></div>
+                <div class="rectangle3"></div>
+                <div class="small-ellipse1"></div>
+                <div class="small-ellipse2"></div>
+                <div class="small-ellipse3"></div>
             </div>
-        </main>
-    </section>
+        </section>
+    </main>
     <section class="wrapper">
         <div class="skills-block">
-        <div class="skills">
-            <div class="ellipse"></div>
+        <div id="sk" class="skills">
             <h2 class="skills-title">Skills</h2>
-            <h3 class="skills-item">HTML</h3>
-            <h3 class="skills-item">CSS</h3>
-            <h3 class="skills-item">JavaScript</h3>
-            <h3 class="skills-item">Python</h3>
-            <h3 class="skills-item">Git, GitHub</h3>
-            <h3 class="skills-item">VS Code</h3>
+            <ul>
+                <li class="skills-item">CSS</li>
+                <li class="skills-item">JavaScript</li>
+                <li class="skills-item">Python</li>
+                <li class="skills-item">Git, GitHub</li>
+                <li class="skills-item">VS Code</li>
+            </ul>
         </div>
-        <div class="examples">
+        <div id="ce" class="examples">
             <h2 class="examples-title">Code Example</h2>
-            <p class="task">Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string.</p>
+            <div class="code-wrapper">
             <code class="code-example">
                 function fakeBin(x){<br>
                 let result = '';<br>
-                  for(let i = 0; i < x.length; i++){<br>
-                    x[i] < 5 ? result += 0 : result += 1;<br>
+                  for(let i = 0; i &lt; x.length; i++){<br>
+                    x[i] &lt; 5 ? result += 0 : result += 1;<br>
                   }<br>
                   return result;<br>
                 }<br>
             </code>
-            <p class="task">You're writing code to control your town's traffic lights. You need a function to handle each change from green, to yellow, to red, and then to green again.</p>
-            <p class="task">Complete the function that takes a string as an argument representing the current state of the light and returns a string representing the state the light should change to.</p>
-            <p class="task">For example, update_light('green') should return 'yellow'.</p>
             <code class="code-example">
                 function updateLight(current) {<br>
                     const list = ['green', 'yellow', 'red', 'green'];<br>
@@ -81,13 +87,15 @@
                   }<br>
             </code>
         </div>
+        </div>
     </div>
     </section>
     <section class="wrapper">
-        <div class="education">
+        <div id="ed" class="education">
         <div class="education-block">
             <h2 class="education-title">Education</h2>
             <h3 class="education-subtitle">University:</h3>
+            <div class="rectangle"></div>
             <p class="education-item">Yugra State University , Bachelor 2016-2018, Linguistics, not graduated</p>
         </div>
         <div class="education-block">
@@ -101,11 +109,20 @@
         <div class="education-block">
             <h2 class="education-title">Languages:</h2>
             <h3 class="education-subtitle">English:</h3>
-            <p education-item>B2, I'm eager to achieve C1</p>
+            <p class="education-item">B2</p>
             <h3 class="education-subtitle">Russian:</h3>
-            <p education-item>Native</p>
+            <p class="education-item">Native</p>
         </div>
         </div>
     </section>
+    <div class="wrapper">
+        <footer class="footer-wrapper">
+            <div class="footer-content">
+                <p class="footer-year">&copy; 2022</p>
+                <a class="course-link" href="https://rs.school/js/"><img class="course-image" src="./rs_school_js.svg" alt="logo"></a>
+                <a class="github-link" href="https://github.com/JulsJuly">GitHub</a>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
