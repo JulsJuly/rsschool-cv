@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yulia B. - Junior Front-End Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body class="body">
+    <header class="wrapper">
+        <div class="menu">
+                <ul class="navigation">
+                    <li class="navigation-item"><a class="navigation-item" href="#cont">Contacts</a></li>
+                    <li class="navigation-item"><a class="navigation-item" href="#am">About me</a></li>
+                    <li class="navigation-item"><a class="navigation-item" href="#sk">Skills</a></li>
+                    <li class="navigation-item"><a class="navigation-item" href="#ce">Code Example</a></li>
+                    <li class="navigation-item"><a class="navigation-item" href="#ed">Education</a></li>
+                </ul>
+        </div>
+    </header>
+    <main class="wrapper">
+        <section class="main-content">
+                <div class="intro-wrapper">
+                <h1 class="name">Yulia BASHMACHNIKOVA</h1>
+                <div class="rectangle"></div>
+                <p id="am" class="about-me">I'm 23 years old and and my main aim is to become a front-end developer. I'm a great team worker as I'm sociable, responsible and attentive. I appreciate new opportunities and I'm eager to get new skills and experience in development. </p>
+                </div>
+            <div class="contacts">
+                <img class="image" src="Wctx4B6w6.jpg" alt="profilePhoto">
+                <div class="contacts-items-wrap">
+                <div class="contacts-item">
+                    <p class="item">Location: Russia, Tyumen</p>
+                </div>
+                <div class="contacts-item-color">
+                    <p class="item">E-mail: juliapb12@yandex.ru</p>
+                </div>
+                <div class="contacts-item">
+                    <p id="cont" class="item">Telegram: @July-D</p>
+                </div>
+                <div class="contacts-item-color">
+                    <a class="item-link" href="https://github.com/JulsJuly"><p class="item">GitHub</p></a>
+                </div>
+                </div>
+                <div class="intro-ellipse"></div>
+                <div class="rectangle1"></div>
+                <div class="rectangle2"></div>
+                <div class="rectangle3"></div>
+                <div class="small-ellipse1"></div>
+                <div class="small-ellipse2"></div>
+                <div class="small-ellipse3"></div>
+            </div>
+        </section>
+    </main>
+    <section class="wrapper">
+        <div class="skills-block">
+        <div id="sk" class="skills">
+            <h2 class="skills-title">Skills</h2>
+            <ul>
+                <li class="skills-item">CSS</li>
+                <li class="skills-item">JavaScript</li>
+                <li class="skills-item">Python</li>
+                <li class="skills-item">Git, GitHub</li>
+                <li class="skills-item">VS Code</li>
+            </ul>
+        </div>
+        <div id="ce" class="examples">
+            <h2 class="examples-title">Code Example</h2>
+            <div class="code-wrapper">
+            <code class="code-example">
+                function fakeBin(x){<br>
+                let result = '';<br>
+                  for(let i = 0; i &lt; x.length; i++){<br>
+                    x[i] &lt; 5 ? result += 0 : result += 1;<br>
+                  }<br>
+                  return result;<br>
+                }<br>
+            </code>
+            <code class="code-example">
+                function updateLight(current) {<br>
+                    const list = ['green', 'yellow', 'red', 'green'];<br>
+                    for (el in list) {<br>
+                      if (list[el] === current)<br>
+                        return list[1 + parseInt(el)]<br>
+                    }<br>
+                  }<br>
+            </code>
+        </div>
+        </div>
+    </div>
+    </section>
+    <section class="wrapper">
+        <div id="ed" class="education">
+        <div class="education-block">
+            <h2 class="education-title">Education</h2>
+            <h3 class="education-subtitle">University:</h3>
+            <div class="rectangle"></div>
+            <p class="education-item">Yugra State University , Bachelor 2016-2018, Linguistics, not graduated</p>
+        </div>
+        <div class="education-block">
+            <h3 class="education-subtitle">Courses:</h3>
+            <a class="course-link" href="https://learn.javascript.ru/">JavaScript</a>
+            <a class="course-link" href="https://ru.code-basics.com/languages/html">HTML for beginners</a>
+            <a class="course-link" href="https://ru.code-basics.com/languages/javascript">JavaScript for beginners</a>
+            <a class="course-link" href="https://stepik.org/course/63085/syllabus">Python</a>
+            <p class="education-item">Coursera, Python for beginners HSE</p>
+        </div>
+        <div class="education-block">
+            <h2 class="education-title">Languages:</h2>
+            <h3 class="education-subtitle">English:</h3>
+            <p class="education-item">B2</p>
+            <h3 class="education-subtitle">Russian:</h3>
+            <p class="education-item">Native</p>
+        </div>
+        </div>
+    </section>
+    <div class="wrapper">
+        <footer class="footer-wrapper">
+            <div class="footer-content">
+                <p class="footer-year">&copy; 2022</p>
+                <a class="course-link" href="https://rs.school/js/"><img class="course-image" src="./rs_school_js.svg" alt="logo"></a>
+                <a class="github-link" href="https://github.com/JulsJuly">GitHub</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
