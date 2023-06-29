@@ -35,12 +35,12 @@ function isIsogram(str){
 ```
 ****
 ## Cources
-* [https://learn.javascript.ru/]("JavaScript Manual") (in progress)
+* [JavaScript Manual](https://learn.javascript.ru/ "JavaScript Manual") (in progress)
 * RS School Course "JavaScript/Front-end. Stage 0" (in progress)
 ****
 ## Languages
 
-* English - Intermediate/Upper Intermediate (according to the [https://www.efset.org/quick-check])
+* English - Intermediate/Upper Intermediate (according to the [EFSet](https://www.efset.org/quick-check))
 ![result](/mailservice.png)
 * Russian - Native
 * Kazakh - Beginner
