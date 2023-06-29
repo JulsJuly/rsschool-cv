@@ -39,6 +39,7 @@ function isIsogram(str){
 ## Cources
 * [JavaScript Manual](https://learn.javascript.ru/ "JavaScript Manual") (in progress)
 * RS School Course "JavaScript/Front-end. Stage 0" (in progress)
+
 ****
 ## Languages
 
