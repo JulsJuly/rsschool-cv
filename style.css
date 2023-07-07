@@ -4,3 +4,11 @@
 .main {
     display: flex;
 }
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 65px;
+}
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
