@@ -1,14 +1,54 @@
 .body {
     background-color: #DCDCDC;
+    margin: 0 auto;
 }
 .main {
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: antiquewhite;
+}
+.left-part {
+    min-width: 50%;
     display: flex;
 }
 h1 {
     font-family: 'Quicksand', sans-serif;
-    font-size: 65px;
+    font-size: 4em;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: normal;
+}
+.grey-block {
+    width: 20%;
+    min-height: 100%;
+    background-color: #778899;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.last-name-block {
+    width: 25vw;
+    background-color: #A9A9A9;
+    opacity: 0.5;
+    position: relative;
+    right: 2vw;
+}
+.last-name {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin: 0 auto;
 }
 p {
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
+    text-align: left;
+}
+.wrapper {
+    
+    
+}
+.right-part {
+    max-width: 50%;
 }
