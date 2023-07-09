@@ -4,6 +4,10 @@
     margin-left: 10%;
     margin-right: 10%;
 }
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
 .header {
     min-height: 7vw;
     display: flex;
@@ -28,7 +32,7 @@ a {
 .main {
     display: flex;
     justify-content: center;
-    background-color: antiquewhite;
+    background-color: #DCDCDC;
 }
 .left-part {
     min-width: 50%;
@@ -36,19 +40,24 @@ a {
 }
 h1 {
     font-family: 'Quicksand', sans-serif;
-    font-size: 4em;
+    font-size: 4vw;
     text-align: center;
     margin: 0 auto;
     font-weight: normal;
 }
 .image {
-    min-width: 25vw;
-}
-.photo{
-    max-width: 25vw;
+    background-color: white;
+    width: 30vw;
+    height: 30vw;
     margin-top: 5vw;
     position: relative;
     right: 2vw;
+}
+.photo{
+    width: 25vw;
+    padding-top: 2.5vw;
+    padding-left: 2.5vw;
+  
 }
 .contacts {
     background-color:#A9A9A9;
@@ -80,8 +89,8 @@ li {
     width: 25%;
     min-height: 100%;
     background-color: #778899;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 1vw;
+    border-bottom-left-radius: 1vw;
 }
 .last-name-block {
     width: 25vw;
@@ -92,7 +101,7 @@ li {
 }
 .last-name {
     font-family: 'Quicksand', sans-serif;
-    font-size: 2em;
+    font-size: 2vw;
     text-align: center;
     margin: 0 auto;
 }
@@ -119,4 +128,19 @@ p {
 }
 .code-example {
     font-family: monospace;
+}
+.rs-icon {
+    max-width: 4vw;
+}
+footer {
+    background-color: #DCDCDC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.github-icon {
+    height: 3vw;
+}
+.rs-icon {
+    height: 3vw;
 }
