@@ -46,7 +46,6 @@ li {
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
     text-align: left;
-    font-weight: bold;
     line-height: 3vw;
 }
 .grey-block {
@@ -74,10 +73,13 @@ p {
     font-size: 20px;
     text-align: left;
 }
-.wrapper {
-    
-    
-}
 .right-part {
     max-width: 50%;
+}
+.task {
+    font-style: italic;
+}
+.code-example {
+    font-size: 1vw;
+    line-height: 3vw;
 }
