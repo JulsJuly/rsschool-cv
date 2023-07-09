@@ -1,0 +1,146 @@
+.body {
+    background-color: #DCDCDC;
+    margin: 0 auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    min-height: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #DCDCDC;
+}
+nav {
+    min-width: 100%;
+    display: flex;
+    justify-content:space-around;
+}
+a {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2vw;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    line-height: 3vw;
+    text-decoration: none;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    background-color: #DCDCDC;
+}
+.left-part {
+    min-width: 50%;
+    display: flex;
+}
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 4vw;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: normal;
+}
+.image {
+    background-color: white;
+    width: 30vw;
+    height: 30vw;
+    margin-top: 5vw;
+    position: relative;
+    right: 2vw;
+}
+.photo{
+    width: 25vw;
+    padding-top: 2.5vw;
+    padding-left: 2.5vw;
+  
+}
+.contacts {
+    background-color:#A9A9A9;
+    opacity: 0.5;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+    position: relative;
+    right: 2vw;
+    padding-left: 4vw;
+}
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    font-weight: bold;
+}
+ul {
+    padding: 2vw;
+    padding-right: 2vw;
+}
+li {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2vw;
+    text-align: left;
+    line-height: 4vw;
+}
+.grey-block {
+    width: 25%;
+    min-height: 100%;
+    background-color: #778899;
+    border-top-left-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+}
+.last-name-block {
+    width: 25vw;
+    background-color: #A9A9A9;
+    opacity: 0.5;
+    position: relative;
+    right: 2vw;
+}
+.last-name {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    margin: 0 auto;
+}
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2vw;
+    text-align: left;
+    line-height: 3vw;
+}
+.right-part {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.courses {
+    margin-top: 5vw;
+}
+.code {
+    margin-top: 5vw;
+}
+.task {
+    font-style: italic;
+}
+.code-example {
+    font-family: monospace;
+}
+.rs-icon {
+    max-width: 4vw;
+}
+footer {
+    background-color: #DCDCDC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.github-icon {
+    height: 3vw;
+}
+.rs-icon {
+    height: 3vw;
+}
