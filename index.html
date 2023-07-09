@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300&family=Red+Hat+Text:wght@500&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+    <div class="wrapper">
+        <header class="header">
+            <nav>
+                <a href="#contacts">Contacts</a>
+                <a href="#about-me">About me</a>
+                <a href="#skills">Skills</a>
+                <a href="#languages">Languages</a>
+                <a href="#code">Code Example</a>
+                <a href="#courses">Courses</a>
+            </nav>
+        </header>
+        <main class="main">
+            <div class="left-part">
+                <div class="grey-block"></div>
+                <div class="light-grey-block">
+                    <h1 class="title">Julia</h1>
+                    <div class="last-name-block">
+                        <p class="last-name">Bashmachnikova</p>
+                    </div>
+                    <div class="image">
+                        <img src="images\photo_2023-07-09_23-20-33.jpg" alt="profile photo" class="photo">
+                    </div>
+                    <div class="contacts">
+                        <h2 id="contacts">Contacts</h2>
+                        <ul>
+                            <li>Location: Kazakhstan, Astana</li>
+                            <li>E-mail: juliapb12@yandex.ru</li>
+                            <li>Telegram: @July_D</li>
+                        </ul>
+                        <h2 id="skills">Skills</h2>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS</li>
+                            <li>JavaScript Basics</li>
+                            <li>Python Basics</li>
+                            <li>Git, GitHub</li>
+                            <li>VS Code</li>
+                        </ul>
+                        <h2 id="languages">Languages</h2>
+                        <ul>
+                            <li> English - Intermediate/Upper Intermediate according to the [EFSet]</li>
+                            <li>Russian - Native</li>
+                            <li>Kazakh - Beginner</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="right-part">
+                <div class="about-me">
+                    <h2 class="about-me-title" id="about-me">About me</h2>
+                    <div class="text">
+                        <p>Two years ago I became keen on creating websites. Due to lack of Web Development experiense, my first website was created with using of no-code platform.
+                        </p>
+                        <p>However Web Development allows creat more complicated website structures according all needs and wishes.  That is why I decided to start my way learning Frontend Development. Creation of modern and efficient websites is my aim.</p>
+                        <p>I'm sure my learning skills and desire will help me go through this way.</p>
+                    </div>
+                    </div>
+                    <div class="courses">
+                        <h2 id="coutses">Courses</h2>
+                        <ul>
+                            <li>JavaScript Manual</li>
+                            <li>RS School Course "JavaScript/Front-end. Stage 0" (in progress)</li>
+                        </ul>
+                    </div>
+                    <div class="code">
+                        <h2 id="code">Code Example</h2>
+                        <p>Isograms from CODEWARS:</p>
+                        <p class="task">An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case</p>
+                        <p class="code-example">function isIsogram(str){</p>
+                        <p class="code-example">let result = new Set(str.toLowerCase()).size === str.length;</p>
+                        <p class="code-example">return result;</p>
+                        <p class="code-example">}</p>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+                <a href="https://github.com/JulsJuly"><img src="images\iconmonstr-github-1.svg" alt="github icon" class="github-icon"></a>
+                <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="rs icon" class="rs-icon" ></a>
+                <p>2023</p>
+        </footer>
+    </div>
+</body>
+</html>
